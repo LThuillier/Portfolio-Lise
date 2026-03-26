@@ -135,7 +135,6 @@
                 <button onclick="showSection('skills')" class="nav-link text-[10px] uppercase font-bold tracking-[0.2em]" id="btn-skills">Compétences</button>
                 <button onclick="showSection('projects')" class="nav-link text-[10px] uppercase font-bold tracking-[0.2em]" id="btn-projects">Projets</button>
                 <button onclick="showSection('journey')" class="nav-link text-[10px] uppercase font-bold tracking-[0.2em]" id="btn-journey">Parcours</button>
-                <button onclick="showSection('veille')" class="nav-link text-[10px] uppercase font-bold tracking-[0.2em]" id="btn-veille">Veille</button>
                 <button onclick="showSection('contact')" class="nav-link text-[10px] uppercase font-bold tracking-[0.2em]" id="btn-contact">Contact</button>
                 
                 <button onclick="toggleTheme()" class="p-2 rounded-full border transition-all ml-2" style="color: var(--nav-text); border-color: var(--nav-text);" id="theme-toggle">
@@ -172,7 +171,7 @@
                     LISE <br/> <span class="stroke-text">THUILLIER</span>
                 </h1>
                 <h2 class="text-xl md:text-3xl mb-8 font-light tracking-wide">
-                    Développeuse Fullstack <span class="text-blue-600 font-medium">@ BTS SIO SLAM</span>
+                    Etudiante en  <span class="text-blue-600 font-medium">BTS SIO SLAM</span>
                 </h2>
                 <p class="text-slate-600 dark:text-slate-400 max-w-2xl text-lg mb-12 leading-relaxed">
                     Actuellement étudiante en BTS SIO (option SLAM) et en alternance au sein du service <strong>Assistante MSI chez Eureden Œuf</strong>. 
@@ -219,7 +218,7 @@
             </div>
         </section>
 
-        <!-- PROJECTS SECTION (L'ONGLET AVEC LES 2 CARDS) -->
+        <!-- PROJECTS SECTION -->
         <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
             <div class="mb-12 border-l-4 border-blue-600 pl-6">
                 <h1 class="text-4xl md:text-6xl font-bold mb-4 uppercase">Projets</h1>
@@ -331,7 +330,7 @@
             </div>
         </section>
 
-        <!-- JOURNEY SECTION (MODIFIÉE POUR UNIFORMITÉ ET CLIC) -->
+        <!-- JOURNEY SECTION -->
         <section id="journey" class="max-w-6xl mx-auto px-6 py-20">
             <div class="mb-16 border-l-4 border-blue-600 pl-6">
                 <h1 class="text-4xl md:text-6xl font-bold mb-4 uppercase">Mes Parcours</h1>
@@ -377,14 +376,14 @@
                     <h4 class="text-xs font-mono text-slate-400 mb-2 uppercase">Formation Actuelle</h4>
                     <h3 class="text-xl font-bold mb-4 uppercase">BTS SIO SLAM</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow">
-                        Spécialisation SLAM à l'Aftec de Vannes. Alternance MSI chez Eureden Œuf depuis février 2025.
+                        J'ai réalisé 2 ans au sein du BTS SIO (Services Informatiques aux Organisations) avec l'option SLAM (Solutions Logicielles et Applications pour le Multimédia) à l'Aftec de Vannes. J'ai égelement trouvé une alternance en févrirer 2025 au sein d'Eureden Oeuf au sein de l'équipe MSI (Maintenance et Support Informatique).
                     </p>
                     <div class="mt-4 text-[10px] font-bold text-blue-600 uppercase tracking-widest">Cliquez pour les détails</div>
                 </div>
             </div>
         </section>
 
-        <!-- DETAILS PARCOURS : LYCEE -->
+        <!-- DETAILS PARCOURS -->
         <section id="journey-likes" class="max-w-6xl mx-auto px-6 py-20">
             <button onclick="showSection('journey')" class="mb-8 flex items-center gap-2 text-slate-500 hover:text-blue-600 transition-colors font-bold uppercase text-xs">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Retour au parcours
@@ -406,7 +405,6 @@
             </div>
         </section>
 
-        <!-- DETAILS PARCOURS : BUT GMP -->
         <section id="journey-but" class="max-w-6xl mx-auto px-6 py-20">
             <button onclick="showSection('journey')" class="mb-8 flex items-center gap-2 text-slate-500 hover:text-blue-600 transition-colors font-bold uppercase text-xs">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Retour au parcours
@@ -428,7 +426,6 @@
             </div>
         </section>
 
-        <!-- DETAILS PARCOURS : ALTERNANCE -->
         <section id="journey-alternance" class="max-w-6xl mx-auto px-6 py-20">
             <button onclick="showSection('journey')" class="mb-8 flex items-center gap-2 text-slate-500 hover:text-blue-600 transition-colors font-bold uppercase text-xs">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Retour au parcours
@@ -450,7 +447,6 @@
             </div>
         </section>
 
-        <!-- DETAILS PARCOURS : BTS -->
         <section id="journey-bts" class="max-w-6xl mx-auto px-6 py-20">
             <button onclick="showSection('journey')" class="mb-8 flex items-center gap-2 text-slate-500 hover:text-blue-600 transition-colors font-bold uppercase text-xs">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Retour au parcours
@@ -472,28 +468,7 @@
             </div>
         </section>
 
-        <!-- VEILLE SECTION -->
-        <section id="veille" class="max-w-6xl mx-auto px-6 py-20">
-            <div class="mb-16 border-l-4 border-blue-600 pl-6">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4 uppercase">Veille Techno</h1>
-                <p class="text-slate-500 text-lg">Sujet d'étude : L'Impact de l'IA.</p>
-            </div>
-            <div class="glass-card p-10 rounded-xl border-t-4 border-t-blue-600" onclick="showSection('projet-cuisine')">
-            <div class="w-full md:w-2/5 h-64 md:h-auto overflow-hidden bg-slate-100 relative">
-                <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"> 
-                    <div class="bg-blue-600 text-white px-4 py-2 rounded-full font-bold text-xs uppercase shadow-lg">Détails</div>
-            </div>
-                <h2 class="text-3xl font-bold mb-4">L'Intelligence Artificielle dans le Développement Software</h2>
-                <p class="text-slate-600 mb-6">Étude de l'automatisation des tâches et de l'amélioration de la détection de bugs via l'IA générative.</p>
-                <div class="flex gap-4">
-                    <span class="bg-slate-100 px-3 py-1 rounded-full text-sm">Feedly</span>
-                    <span class="bg-slate-100 px-3 py-1 rounded-full text-sm">LinkedIn</span>
-                    <span class="bg-slate-100 px-3 py-1 rounded-full text-sm">Google Alerts</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- CONTACT SECTION (FORMULAIRE CONFIGURÉ) -->
+        <!-- CONTACT SECTION -->
         <section id="contact" class="max-w-6xl mx-auto px-6 py-20">
             <div class="mb-16 border-l-4 border-blue-600 pl-6">
                 <h1 class="text-4xl md:text-6xl font-bold mb-4 uppercase">Contact</h1>
@@ -503,7 +478,6 @@
                 <div class="form-anim-container">
                     <div class="inner-form">
                         <h2 class="text-center w-full font-bold text-xl mb-4">Message</h2>
-                        <!-- Fonction handleContactForm pour l'envoi par mail -->
                         <form id="contactForm" onsubmit="handleContactForm(event);">
                             <div class="input-box"><input type="text" id="contactName" required><label>Nom et Prénom</label></div>
                             <div class="input-box"><input type="email" id="contactEmail" required><label>Email</label></div>
@@ -547,7 +521,7 @@
             }
             document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
             // Gestion de l'état actif pour les boutons de navigation principaux
-            if (sectionId === 'home' || sectionId === 'skills' || sectionId === 'projects' || sectionId === 'journey' || sectionId === 'veille' || sectionId === 'contact') {
+            if (['home', 'skills', 'projects', 'journey', 'contact'].includes(sectionId)) {
                 document.getElementById('btn-' + sectionId)?.classList.add('active');
             }
         }
